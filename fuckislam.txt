@@ -1,0 +1,50 @@
+
+<html><head> 
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+
+  <meta property="og:image" content=""> 
+  <meta property="og:title" content="Hacked by Hacktivist Of Garuda"> 
+  <meta property="og:description" content="Security Just An Ilussion"> 
+  <title>Hacked By Asli Nabi | Atheist | Humanist Hacker</title> 
+ </head> 
+ <body oncontextmenu="return false;" onkeydown="return false;" onmousedown="return false;" bgcolor="black"> 
+  <link href="https://t.co/PcxoKfhRTs" rel="stylesheet"> 
+  <link href="https://t.co/dlVA0XhzlJ" rel="stylesheet"> 
+  <style type="text/css"> .lagu{ background:transparent; border:2px solid red; font-family:Share Tech Mono; color:white; font-size:15x; font-weight:bold; padding:3px 29px; text-decoration:none; text-shadow:0px 0px 0px ; } </style> 
+  <script> function play(){ var audio = document.getElementById('lagu'); https://t.co/sIS6Q5suyH(); } function liat(){ document.getElementById('galiat').style.visibility='visible'; } </script> 
+  <style type="text/css"> body{ background-color: black;background-size : cover;background-position: center;background-image: url("");} div.content{ color: white; font-family: 'Oswald', sans-serif; font-size: 40px; text-align: center; } div.body{ color: white; font-family: 'Oswald', sans-serif; font-size: 15px; text-align: center; } https://t.co/SvLRwzSHik{ color: white; font-family: tahoma; font-size: 17px; text-align: center; } div.xxxx{ color: white; font-family:courier; font-size: 17px; text-align: center; } </style> 
+  <style>.blink {animation: blink-animation 1s steps(5, start) infinite;-webkit-animation: blink-animation 1s steps(5, start) infinite;}@keyframes blink-animation {to {visibility: hidden;}}@-webkit-keyframes blink-animation {to {visibility: hidden;}}</style> 
+  <script src="https://t.co/9uYBQDLwfJ" type="text/javascript"></script> 
+  <table width="100%" height="100%"> 
+   <tbody> 
+    <tr> 
+     <td align="center"> 
+      <center> 
+       <img src="https://i.ibb.co/1ZWj7C9/images-17-modified.png" width="50%"><br>
+       <br> 
+       <font face="Reggae One" class="blink" color="red" size="5"><b>HACKED BY<font style="color:lime;"> Asli Nabi </font><font style="color: #ffffff">| </font>Ex Muslim</b></font> 
+       <b><font class="blink" face="Reggae One" size="5" color="white"> | Humanist and Atheist</font></b> 
+       <font class="blink" face="Reggae One" size="5" color="white"><br><br></font> 
+       <font face="Times" color="white" size="4"><b> <font size="4">Most peaceful religion is doing these stuff. Later when these Jihadi kids will be killed by nation's army then muslims will gather and say "Save Muslims"<br>Is that what you call humanity ?<br>
+       <br>
+       <video id="vid" controls="controls" autoplay>
+          	<!-- source src="https://nulz-archice.vercel.app/archive/buruhtani.mp4" type="video/mp4" / -->
+          	<source src="https://c.top4top.io/m_2441q42sd0.mp4" type="video/mp4" />
+          </video>
+          <style>
+          	#vid {
+          		width: 80%;
+          		height: auto;
+          		box-shadow: 0 0 20px rgba(255,255,255,0.3);
+          	}
+          </style>
+          <br>
+          <br>
+       <br> <font face="iceland" color="white" size="5"><b> <font size="5"> Greetz : Exmuslims Saudi - Exmuslims Singapore - Exmuslims Pakistan - Ex Exmuslims India - Ex Exmuslims Bangladesh - Ex Muslim Indonesia - Ex Muslim Malaysia - Ex Muslim Afganistan - all exmuslim community <br> <font color="White"><font face="iceland" color="white" size="6">Be Human - Leave Islam<br><b></b><p><font color="lime" face="iceland"><br><b>Stay Away from Islam</b></font><br><br>
+    </tr>  
+   </tbody> 
+  </table> 
+ 
+</body>
+</html>
