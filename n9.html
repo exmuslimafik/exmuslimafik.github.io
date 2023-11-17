@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <link rel="shortcut icon" href="https://i.ibb.co/k82XSck/N9.png" type="image/x-icon">
+      <title>HACKED bY NETWORK-9</title>
+      <meta property="og:image" content="https://i.ibb.co/k82XSck/N9.png">
+    <style>
+        @import url("https://fonts.googleapis.com/css?family=Lalezar|Bevan&display=swap");
+   * {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  font-family: Lalezar;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+#clock {
+  position: relative;
+  transform: translate(-50%, -50%) scale(5);
+  width: 100%;
+  top: -105%;
+  height: 100%;
+  background: transparent;
+}
+.format-text {
+  margin-top: 450px;
+}
+@media (max-width: 787px) {
+  .format-text {
+    margin-top: 145px;
+  }
+  #clock {
+    top: -114%;
+    transform: translate(-50%, -50%) scale(5);
+  }
+  .logo {
+  top: 27.9% !important;
+  left: 24.3% !important;
+}
+  .label {
+    font-size: 4vw;
+  }
+
+  .msg {
+    left: 32%;
+    font-size: 16px;
+    padding-top: 0.5vh;
+    margin-top: -5vh;
+    min-width: 5vw;
+  }
+  .abc .xyz { 
+    margin-top: -60px;
+  }
+
+}
+.text {
+  white-space: nowrap;
+  font-family: 'trebuchet ms', verdana, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: #00FEFC;
+  text-shadow: 3px 3px 10px #02131c #fff;
+}
+.logo {
+  height: 200px;
+  max-width: 200px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 0 0 20px white;
+  object-fit: cover;
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.abc {
+  font: 400 1em/1.5 "Bevan";
+	 text-transform: uppercase;
+	 letter-spacing: 0.5em;
+	 display: inline-block;
+	 border: 4px double rgba(255, 255, 255, .25);
+	 border-width: 4px 0;
+	 padding: 1.5em 0em;
+	 position: absolute;
+	 top: 17%;
+	 left: 50%;
+	 width: 40em;
+	 margin: 0 0 0 -20em;
+}
+ .abc .xyz {
+  font-size: 24px !important;
+	 font: 700 14em "Bevan", sans-serif;
+	 letter-spacing: 0;
+	 padding: 17em 0 0.32em;
+	 display: block;
+    text-shadow: 0 0 100px rgb(255, 123, 0) !important;
+	/* Clip Background Image */
+	 background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	 -webkit-background-clip: text;
+	 background-clip: text;
+	/* Animate Background Image */
+	 -webkit-text-fill-color: transparent;
+	 -webkit-animation: aitf 80s linear infinite;
+	/* Activate hardware acceleration for smoother animations */
+	 -webkit-transform: translate3d(0, 0, 0);
+	 -webkit-backface-visibility: hidden;
+}
+/* Animate Background Image */
+ @-webkit-keyframes aitf {
+	 0% {
+		 background-position: 0% 50%;
+	}
+	 100% {
+		 background-position: 100% 50%;
+	}
+}
+.label {
+  display: inline-block;
+  color: #4d4d4d;
+  text-align: center;
+  padding: 0 2%;
+  font-size: 2vw;
+  transition: left 1s, top 1s;
+  transform-origin: 0% 0%;
+}
+
+.msg {
+  z-index: 9999;
+  font-family: 'trebuchet ms', verdana, arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding-top: 1vh;
+  background: #000;
+  box-shadow: 0 0 15px black; 
+  text-shadow: 0 0 10px white;
+  color: white;
+  padding : 0.5vw;
+  position: absolute;
+  left: 53%;
+  margin-left: -10vw;
+  top: 90%;
+  margin-top: -2.5vh;
+  text-align: center;
+  min-width: 5vw;
+  animation-name: blink;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+canvas {
+	display:block;
+}
+.label {
+  display: inline-block;
+  color: #4d4d4d;
+  text-align: center;
+  padding: 0 5px;
+  font-size: 16px;
+  transition: left 1s, top 1s;
+  transform-origin: 0% 0%;
+}
+
+  #console p {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 4.1vh;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: limegreen;
+    text-shadow: 0px 0px 10px limegreen;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 9999; 
+}
+
+        h1, h2 {
+            font-family: 'Lalezar', cursive;
+            color: red;
+            text-align: center;
+        }
+        
+    @media (max-width: 787px) {
+        h1 {
+            font-size: 25px;
+        }
+    }
+        a {
+            word-wrap: break-word;
+            color: white;
+            font-family: 'Lalezar', cursive;
+            text-align: center;
+        }
+        p {
+            color: #6b69ff;
+            font-family: 'Lalezar', cursive;
+            text-align: center;
+        }
+.snow {
+  z-index: 9999;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
+.snow:nth-child(1) {
+  opacity: 0.6064;
+  transform: translate(56.5936vw, -10px) scale(0.1606);
+  animation: fall-1 22s -16s linear infinite;
+}
+@keyframes fall-1 {
+  34.585% {
+    transform: translate(57.9903vw, 34.585vh) scale(0.1606);
+  }
+  to {
+    transform: translate(57.29195vw, 100vh) scale(0.1606);
+  }
+}
+.snow:nth-child(2) {
+  opacity: 0.0623;
+  transform: translate(38.6106vw, -10px) scale(0.3982);
+  animation: fall-2 17s -21s linear infinite;
+}
+@keyframes fall-2 {
+  70.443% {
+    transform: translate(37.0175vw, 70.443vh) scale(0.3982);
+  }
+  to {
+    transform: translate(37.81405vw, 100vh) scale(0.3982);
+  }
+}
+.snow:nth-child(3) {
+  opacity: 0.7242;
+  transform: translate(18.1453vw, -10px) scale(0.9984);
+  animation: fall-3 10s -24s linear infinite;
+}
+@keyframes fall-3 {
+  71.78% {
+    transform: translate(22.1161vw, 71.78vh) scale(0.9984);
+  }
+  to {
+    transform: translate(20.1307vw, 100vh) scale(0.9984);
+  }
+}
+    </style>
+</head>
+<body onclick=" theme_audio();">
+  <script>
+  var canvas=document.createElement("canvas"),
+  height=canvas.height=window.innerHeight,
+  width=canvas.width=window.innerWidth,
+  ctx=canvas.getContext("2d");
+  function random(r,t){return Math.random()*(t-r+1)+r}function range_map(r,t,e,a,i){return(r-t)*(i-a)/(e-t)+a}document.body.appendChild(canvas);
+  for(var word_arr=[],txt_min_size=5,txt_max_size=25,keypress=!1,acclerate=2,i=0;i<25;i++)word_arr.push({x:random(0,width),y:random(0,height),text:"ANONYMOUS",size:random(txt_min_size,txt_max_size)}),word_arr.push({x:random(0,width),y:random(0,height),text:"NETWORK-9",size:random(txt_min_size,txt_max_size)}),word_arr.push({x:random(0,width),y:random(0,height),text:"INDIAN HACKERS",size:random(txt_min_size,txt_max_size)}),word_arr.push({x:random(0,width),y:random(0,height),text:"GHOST",size:Math.floor(random(txt_min_size,txt_max_size))});function render(){ctx.fillStyle="rgba(0,0,0,1)",ctx.fillRect(0,0,width,height),ctx.fillStyle="#fff";for(var r=0;r<word_arr.length;r++){ctx.font=word_arr[r].size+"px sans-serif";var t=ctx.measureText(word_arr[r].text);ctx.fillText(word_arr[r].text,word_arr[r].x,word_arr[r].y),word_arr[r].x+=keypress?range_map(word_arr[r].size,txt_min_size,txt_max_size,2,4)*acclerate:range_map(word_arr[r].size,txt_min_size,txt_max_size,2,3),word_arr[r].x>=width&&(word_arr[r].x=2*-t.width,word_arr[r].y=random(0,height),word_arr[r].size=Math.floor(random(txt_min_size,txt_max_size)))}ctx.fill(),requestAnimationFrame(render)}render(),window.addEventListener("keydown",(function(){keypress=!0}),!0),window.addEventListener("keyup",(function(){keypress=!1}),!0);</script>
+      <div id="overlay">
+    <div class="snow"></div>
+<div class="snow"></div>
+<div class="snow"></div>
+<div id="particles-js">
+<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1365" height="949"></canvas>
+        </div>
+        <div class="texture"></div>
+        <div class="texture2"></div>
+        <style>
+.texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    background: url(https://i.imgur.com/34uOiaV.png);
+}
+	.texture2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    background-color: black;
+        opacity: 0.7;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.5;
+}
+    	    	#xx {
+    		width: 100%;
+    		height: 100%; 
+    		background-size: cover; 
+    		background-position: 50% 50%; 
+    		position: fixed; 
+    		top: 0px; 
+    		z-index:1;
+    	} 
+    	@keyframes blikk{
+    		0% {
+    			color: darkred;
+    			text-shadow: #fff 0px 0px 10px;
+    		}
+    		50% {
+    			color: white;
+    			text-shadow: darkred 0px 0px 10px;
+    		}
+    		100% {
+    			color: darkred;
+    			text-shadow: #fff 0px 0px 10px;
+    		}
+    	}
+    img.tengah {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+html {cursor: url(https://github.com/ByTanimsiz/q/blob/main/cur641.cur?raw=true), auto;}
+        </style>
+<!---div style="position: fixed; top: 75px; left: -225px; width: 600px; padding: 10px; font-size: 24px; text-align: center; color: white; font-family: 'trebuchet ms', verdana, arial, sans-serif;transform: rotate(-45deg);transform-origin: 50% 0px;-o-transform: rotate(-45deg); -o-transform-origin: 50% 0px;-moz-transform: rotate(-45deg); -moz-transform-origin: 50% 0px; -webkit-transform: rotate(-45deg); -webkit-transform-origin: 50% 0px; background-color: Transparent; border: 1px solid rgb(170, 170, 170); z-index: 999; opacity: 0.5;"><a href="//thanhdieu.com" style="text-decoration:none;color:white;">
+PORK L0VER</a></div------------>
+    <div class="msg">THIS WEBSITE'S WHOLE SERVER IS FUCKED AND FILES ARE ENCRYPTED</div>
+    <div id="console"></div>
+    <div class="overlay-content">
+      <img class="logo" src="https://i.ibb.co/k82XSck/N9.png">
+     <div>
+        <!------ span class="abc">
+        <span class="xyz">
+         Ngô Trọng Thuần&ensp;<img src="https://i.imgur.com/fZOnSsa.png" style="height:25px;margin:-1px;">
+        </span>
+      </span ------------></div>
+      <div class="format-text">
+      <div class="text"></div>
+    </div>
+    </div>
+    <div id="clock"></div>
+    </div>
+    <script>
+        var intervalID = window.setInterval(updateScreen, 200);
+var console = document.getElementById("console");
+const msg = document.querySelector(".msg");
+var txt = [
+  "FORCE: XX0022. ENCYPT://000.222.2345",
+  "TRYPASS: ********* AUTH CODE: ALPHA GAMMA: 1___ PRIORITY 1",
+  "RETRY: REINDEER FLOTILLA",
+  "Z:> /FALKEN/GAMES/TICTACTOE/ EXECUTE -PLAYERS 0",
+  "================================================",
+  "Priority 1 // local / scanning...",
+  "scanning ports...",
+  "BACKDOOR FOUND (23.45.23.12.00000000)",
+  "BACKDOOR FOUND (13.66.23.12.00110000)",
+  "BACKDOOR FOUND (13.66.23.12.00110044)",
+  "...",
+  "...",
+  "BRUTE.EXE -r -z",
+  "...locating vulnerabilities...",
+  "...vulnerabilities found...",
+  "MCP/> DEPLOY CLU",
+  "SCAN: __ 0100.0000.0554.0080",
+  "SCAN: __ 0020.0000.0553.0080",
+  "SCAN: __ 0001.0000.0554.0550",
+  "SCAN: __ 0012.0000.0553.0030",
+  "SCAN: __ 0100.0000.0554.0080",
+  "SCAN: __ 0020.0000.0553.0080",
+]
+
+var docfrag = document.createDocumentFragment();
+const ThanhDieu_List = [
+  "https://d3c0lac2dv59sb.cloudfront.net/g83rg8%2Ffile%2Ff8289e0496828f9baaff79e8e9e1eced_8299f69a480e32ddb715d0ce966a226f.mp3?response-content-disposition=inline%3Bfilename%3D%22f8289e0496828f9baaff79e8e9e1eced_8299f69a480e32ddb715d0ce966a226f.mp3%22%3B&response-content-type=audio%2Fmpeg&Expires=1700188240&Signature=Y3ZNSDWxnNSmjM4C8IFiosN7fICSag~wQ7804~NtFOlMEHN3GXRzXv7Dp5TDWpwANINfapOZVHzCQhxYTefhHTp6i9FqFAJLdXZDO2lFuyEJfXL8EhMdIQSWuSPQiRObhc2h~r5I-N1GdjNvb7h8Y1SiUQKb-lQa7Pf96-tx0SUbnMU6mnOSX7tx73x-W8Mj1IWBMZQL1nVJ-6~xnpZx043nAxLy8S270shBu3EJweOfcCK9lj73jNrkuVeX1jaVCUO45OF18jjLp4W0SsFpNYMAZbxM2HfbAs3rk~k8vm74zo5-EQ8PuVVwiSe5Ui2JSxMisNxtj~Ang7ASdbIhqA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ", 
+    "https://admin-checkscam.vn/Video.mp3", 
+      "https://admin-checkscam.vn/MinhDino.mp3", 
+];
+let index = Math.floor(Math.random() * ThanhDieu_List.length);
+const audio = new Audio(ThanhDieu_List[index]);
+function theme_audio(){
+  audio.play();
+}
+document.addEventListener("click", theme_audio());
+audio.addEventListener("ended", function() {
+  index = (index + 1) % ThanhDieu_List.length;
+  audio.src = ThanhDieu_List[index];
+  audio.play();
+});
+function updateScreen() {
+  txt.push(txt.shift());
+  txt.forEach(function(e) {
+    var p = document.createElement("p");
+    p.textContent = e;
+    docfrag.appendChild(p);
+  });
+  while (console.firstChild) {
+    console.removeChild(console.firstChild);
+  }
+  console.appendChild(docfrag);
+}
+
+setTimeout(() => { msg.style.background = "#000";
+msg.style.boxShadow = "0 0 1px limegreen";
+console.style.display = "none";}, 1300);
+    </script>
+<script>
+  var monthText=["壹月","贰月","叁月","肆月","伍月","陆月","柒月","捌月","玖月","拾月","拾壹月","拾贰月"];var dayText=["壹号","贰号","叁号","肆号","伍号","陆号","柒号","捌号","玖号","拾号","拾壹号","拾贰号","拾叁号","拾肆号","拾伍号","拾陆号","拾柒号","拾捌号","拾玖号","贰拾号","贰拾壹号","贰拾贰号","贰拾叁号","贰拾肆号","贰拾伍号","贰拾陆号","贰拾柒号","贰拾捌号","贰拾玖号","叁拾号","叁拾壹号"];var weekText=["星期日","星期壹","星期贰","星期叁","星期肆","星期伍","星期陆"];var hourText=["零点","壹点","贰点","叁点","肆点","伍点","陆点","柒点","捌点","玖点","拾点","拾壹点","拾贰点","拾叁点","拾肆点","拾伍点","拾陆点","拾柒点","拾捌点","拾玖点","贰拾点","贰拾壹点","贰拾贰点","贰拾叁点"];var minuteText=["壹分","贰分","叁分","肆分","伍分","陆分","柒分","捌分","玖分","拾分","拾壹分","拾贰分","拾叁分","拾肆分","拾伍分","拾陆分","拾柒分","拾捌分","拾玖分","贰拾分","贰拾壹分","贰拾贰分","贰拾叁分","贰拾肆分","贰拾伍分","贰拾陆分","贰拾柒分","贰拾捌分","贰拾玖分","叁拾分","叁拾壹分","叁拾贰分","叁拾叁分","叁拾肆分","叁拾伍分","叁拾陆分","叁拾柒分","叁拾捌分","叁拾玖分","肆拾分","肆拾壹分","肆拾贰分","肆拾叁分","肆拾肆分","肆拾伍分","肆拾陆分","肆拾柒分","肆拾捌分","肆拾玖分","伍拾分","伍拾壹分","伍拾贰分","伍拾叁分","伍拾肆分","伍拾伍分","伍拾陆分","伍拾柒分","伍拾捌分","伍拾玖分","陆拾分"];var secondsText=["壹秒","贰秒","叁秒","肆秒","伍秒","陆秒","柒秒","捌秒","玖秒","拾秒","拾壹秒","拾贰秒","拾叁秒","拾肆秒","拾伍秒","拾陆秒","拾柒秒","拾捌秒","拾玖秒","贰拾秒","贰拾壹秒","贰拾贰秒","贰拾叁秒","贰拾肆秒","贰拾伍秒","贰拾陆秒","贰拾柒秒","贰拾捌秒","贰拾玖秒","叁拾秒","叁拾壹秒","叁拾贰秒","叁拾叁秒","叁拾肆秒","叁拾伍秒","叁拾陆秒","叁拾柒秒","叁拾捌秒","叁拾玖秒","肆拾秒","肆拾壹秒","肆拾贰秒","肆拾叁秒","肆拾肆秒","肆拾伍秒","肆拾陆秒","肆拾柒秒","肆拾捌秒","肆拾玖秒","伍拾秒","伍拾壹秒","伍拾贰秒","伍拾叁秒","伍拾肆秒","伍拾伍秒","伍拾陆秒","伍拾柒秒","伍拾捌秒","伍拾玖秒","陆拾秒"];var clock;var monthList=[];var dayList=[];var weekList=[];var hourList=[];var minuteList=[];var secondsList=[];var isCircle = false;
+var textSet = [
+	[monthText, monthList],
+	[dayText, dayList],
+	[weekText, weekList],
+	[hourText, hourList],
+	[minuteText, minuteList],
+	[secondsText, secondsList]
+];
+window.onload = function() {
+	init();
+	setInterval(function() {
+		runTime();
+	}, 100);
+	changePosition();
+	setTimeout(function() {
+		changeCircle();
+	}, 1500);
+}
+
+function init() {
+	clock = document.getElementById('clock');
+	for (var i = 0; i < textSet.length; i++) {
+		for (var j = 0; j < textSet[i][0].length; j++) {
+			var temp = createLabel(textSet[i][0][j]);
+			clock.appendChild(temp);
+			textSet[i][1].push(temp);
+		}
+	}
+}
+
+function createLabel(text) {
+	var div = document.createElement('div');
+	div.classList.add('label');
+	div.innerText = text;
+	return div;
+}
+
+function runTime() {
+	var now = new Date();
+	var month = now.getMonth();
+	var day = now.getDate();
+	var week = now.getDay();
+	var hour = now.getHours();
+	var minute = now.getMinutes();
+	var seconds = now.getSeconds();
+	initStyle();
+	var nowValue = [month, day - 1, week, hour, minute, seconds];
+	for (var i = 0; i < nowValue.length; i++) {
+		var num = nowValue[i];
+		textSet[i][1][num].style.color = 'red';
+	}
+	if (isCircle) {
+		var widthMid = document.body.clientWidth / 2;
+		var heightMid = document.body.clientHeight / 2;
+		for (var i = 0; i < textSet.length; i++) {
+			for (var j = 0; j < textSet[i][0].length; j++) {
+				var r = (i + 1) * 35 + 50 * i;
+				var deg = 360 / textSet[i][1].length * (j - nowValue[i]);
+				var x = r * Math.sin(deg * Math.PI / 180) + widthMid;
+				var y = heightMid - r * Math.cos(deg * Math.PI / 180);
+				var temp = textSet[i][1][j];
+				temp.style.transform = 'rotate(' + (-90 + deg) + 'deg)';
+				temp.style.left = x + 'px';
+				temp.style.top = y + 'px';
+			}
+		}
+	}
+}
+
+function initStyle() {
+	var label = document.getElementsByClassName('label');
+	for (var i = 0; i < label.length; i++) {
+		label[i].style.color = 'white';
+	}
+}
+
+function changePosition() {
+	for (let i = 0; i < textSet.length; i++) {
+		for (let j = 0; j < textSet[i][1].length; j++) {
+			let tempX = textSet[i][1][j].offsetLeft + "px";
+			let tempY = textSet[i][1][j].offsetTop + "px";
+			setTimeout(function() {
+				textSet[i][1][j].style.position = "absolute";
+				textSet[i][1][j].style.left = tempX;
+				textSet[i][1][j].style.top = tempY;
+			}, 50);
+		}
+	}
+}
+
+function changeCircle() {
+	isCircle = true;
+	clock.style.transform = "rotate(90deg)";
+}
+class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = '!<>-_[]—+*^?%!#________';
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise(resolve => this.resolve = resolve);
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || '';
+      const to = newText[i] || '';
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({
+        from,
+        to,
+        start,
+        end
+      });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = '';
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let {
+        from,
+        to,
+        start,
+        end,
+        char
+      } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.28) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }
+}
+
+const phrases = ['ㅤ[ PORK Lover was HERE ]ㅤ', 'ㅤ[+] HACKED bY NETWORK-9 [+]ㅤ', 'ㅤ[+] FOR TRULY THIS REALITY IS A HELL [+]ㅤ', 'ㅤ[+] YOU ARE ADVISED TO STAY AWAY FROM INDIAN CYBER SPACE [+]ㅤ', 'ㅤ[+] OR ELSE WE WILL HUNT YOU DOWN [+]ㅤ', 'ㅤ[+] JUST LIKE THIS BABY [+]ㅤ', 'ㅤ[+] NETWORK-9 [+]ㅤ'];
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 900);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+next();
+  </script>
+  
+</body>
+</html>
